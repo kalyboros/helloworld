@@ -22,10 +22,11 @@ Second week, maven task
 
 7. Build project :heavy_check_mark:
 
-8. Change version in only one place
+8. Change version in only one parent pom :heavy_check_mark:
    * I solved this by using revision
    * In parent pom i defined revision in properties (1.1-SNAPSHOT)
    * And wherever <version> tags reside in parent pom and child pom, i put ${revision} inside of them
+   * So now it always takes that version whether it is a child or a parent
 
 
 ## Answers to questions
