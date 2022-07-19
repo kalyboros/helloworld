@@ -14,7 +14,9 @@ Second week, maven task
 4. Add dependencies to them(check their pom.xml) :heavy_check_mark:
     * child1 has gson lib
     * child2 has joda time
-5. Specify version
+5. Specify version :heavy_check_mark:
+    * in child2 i changed the version of that particular dependency from latest stable to previous rolling in 2021
+
 
 
 ## Answers to questions

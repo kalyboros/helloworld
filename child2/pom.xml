@@ -21,7 +21,8 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>2.10.14</version>
+            <!-- here i changed from latest stable release 2.10.14 to prerolling 2.10.9 -->
+            <version>2.10.9</version>
         </dependency>
 
     </dependencies>
