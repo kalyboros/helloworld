@@ -32,7 +32,7 @@ Second week, maven task
 ## Answers to questions
 1. m2 
    * what is? A local repository of dependencies, libraries and projects
-   * Where it is? Usually can be found in C:\Users\USERNAME\.m2
+   * Where it is? Usually can be found in C:\Users\USERNAME\ .m2
    * What is it for? More or less for local storing of dependencies, libs and projects, specifically their builds, packaging, etc.
    
 2. Settings xml
@@ -47,11 +47,11 @@ Second week, maven task
    * mvn clean install and we should execute it where parent pom resides
 4. Which command should you use if you only want to execute tests?
    * mvn test as it will only execute the test classes
-   * it will also execute pre-steps clean,validate and compile
+   * it will also execute pre-steps clean, validate and compile
 5. Where is the jar file stored?
-   * They are all stored inside of ~/.m2/repository and here you can find specific dependencies and jars inside them
+   * They are all stored inside of ~/.m2/repository and here you can find specific dependenciy directories and jars inside them
 6. How are jars called after changing version?
-   * First it was helloworld-1.0-SNAPSHOT
+   * First it was helloworld-1.0-SNAPSHOT.pom, now it is helloworld-1.1-SNAPSHOT.pom
 
 
 
