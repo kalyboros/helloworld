@@ -26,6 +26,19 @@ Second week, maven task
 2. Settings xml
    * How does it know where to get jars from?
 
+3. Which command should you use to build all projects?
+
+4. Which command should you use if you only want to execute tests?
+
+5. Where is the jar file stored?
+
+6. How are jars called after?
+
+
+
+
+
+
 
 ## Authors
 
