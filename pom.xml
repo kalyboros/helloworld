@@ -6,18 +6,17 @@
 
     <groupId>ct360.task</groupId>
     <artifactId>helloworld</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
+    <!-- <packaging>jar</packaging> -->
+
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <!-- These are child projects -->
-        <module>child1</module>
-        <module>child2</module>
-    </modules>
+
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -35,5 +34,27 @@
             <version>1.4.7</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <!-- Build an executable JAR -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <!-- I do this so i can build a jar file and execute it to print out hello world -->
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>hello_world.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>
