@@ -28,6 +28,7 @@ Second week, maven task
    * And wherever <version> tags reside in parent pom and child pom, i put ${revision} inside of them
    * So now it always takes that version whether it is a child or a parent
 
+9. Re-build the projects (same as in step 7.) :heavy_check_mark:
 
 ## Answers to questions
 1. m2 
