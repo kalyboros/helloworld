@@ -55,6 +55,9 @@ Second week, maven task
    * First it was helloworld-1.0-SNAPSHOT.pom, now it is helloworld-1.1-SNAPSHOT.pom
 
 
+## Extra 
+I did both pom and jar packaging. I am adding a directory named ct360 so Tutor can check them out.
+
 
 
 
